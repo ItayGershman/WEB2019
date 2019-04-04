@@ -4,9 +4,14 @@
     padding:0px;
 }
 
+#wrapper{
+    margin-left:125px;
+    margin-right:125px;
+}
+
 body {
-padding: 0%;
-background: #F2F2F2;
+    padding: 0%;
+    background: #F2F2F2;
 }
 
 header, nav, main,section, footer {
@@ -14,7 +19,6 @@ header, nav, main,section, footer {
 }
 
 header{
-    margin-left: 125px;
     margin-top:76px;
     
 }
@@ -26,15 +30,18 @@ header a{
 
 h2{
     color:#222222;
+    padding-bottom:8px;
+}
+
+h1{
+    color:#222222;
+    padding-bottom:8px;
 }
 header img{
     border-radius: 50%; /*make the image circle*/
     font-size:88px;
 }
 
-main{
-    margin-left: 125px;
-}
 
 #logo{
     background:url(../images/MyPic.png) left no-repeat ;
@@ -43,6 +50,7 @@ main{
     padding-left:100px;
     height:60px;
     width:180px;
+    color:#222222;
 } 
 
 header a{
@@ -51,12 +59,18 @@ header a{
 
 
 nav{
-    margin-left: 100px;
     font-size:14px;
+    padding-bottom:43px;
+    padding-top:26px;
 }
 nav a{
-    padding:24px;
-    height:16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-right:24px;
+    height:19px;
     color:#858b8c;
 }
 
@@ -66,13 +80,11 @@ a {
 
 }
 
+
 nav a:hover{
     color: #1434E1;
 }
 
-section img{
-    padding:5px;
-}
 
 #img1{
     width:570x;
@@ -80,7 +92,7 @@ section img{
 }
 #img2{
     width:350px;
-    height:450px;
+    height:453px;
 }
 
 .top_container{
@@ -88,22 +100,36 @@ section img{
 }
 
 .icons{
-    width: 40px;
-    height: 40px;
-    background-color:#F2F2F2;
+    width: 54px;
+    height: 54px;
+    background: #E5E5E5;
+    border-radius: 34px;
 }
 
+div img{
+    margin-bottom:30px;
+}
+
+p{
+    color:#222222;
+    opacity: 0.7;
+    padding-bottom:60px;
+}
+
+
+
 .languages{
+    margin-top:15px;
+    margin-left:29px;
     position: absolute;
-    width: 190px;
-    height: 16px;
-    padding:5px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 40px;
+    line-height: 24px;
     letter-spacing: 4px;
+    height:17px;
+    color:#000000;
 }
 
 button {
@@ -115,22 +141,30 @@ button {
     width:206px;
     height:40px;
     background: #C6B393;
+    padding-right:59px;
 }
 
+#brownie:hover{
+    color:rgb(8, 244, 252);
+}
+
+
 footer {
+    margin-left:-125px;
     position: absolute;
     width: 1360px;
     height: 240px;
     background: #515151;
 
 }
-
 footer a:hover{
     color: #1434E1;
+
 }
 
 
 .footer_text{
+
     position: absolute;
     left: 0%;
     right: 0%;
@@ -145,14 +179,15 @@ footer a:hover{
     text-align: center;
     letter-spacing: 4px;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 
 
 footer span a{
     float:left;
-    padding:30px;
+    padding-right:30px;
+    padding-top:30px;
+    padding-left:59px;
     font-family:Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -161,59 +196,93 @@ footer span a{
     text-align: center;
     letter-spacing: 2px;
     margin-top:50px;
-
+    padding-right:59px;
     color: #FFFFFF;
 }
 
 #footer_span_a{
     margin-left:350px;
     margin-top:50px;
+    padding-left:55px;
 }
 
 
 footer img{
-    width:20px;
-    height:20px;
+    height:15px;
+    padding-right:19px;
 }
 
 footer section{
     margin-left:125px;
 }
 
-hr {
-    margin-top:150px;
-    margin-left:125px;
-    margin-right:325px;
-    opacity: 0.2;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
+.line{
+  margin-top:140px;
+  margin-left:125px;
+  margin-bottom:42px;
+  border: 1px solid #FFFFFF;
+  opacity:0.2;
+  height: 1px;
+  width:1108px;
+  box-sizing: border-box;
 }
+
+
 
 .parent {
   position: relative;
   top: 0;
   left: 0;
 }
+
 .image1 {
   position: relative;
   top: 0;
   left: 0;
+  padding-top:40px;
+  padding-bottom:193px;
 }
+
 .image2 {
   position: absolute;
-  top: 60px;
+  padding-top: 160px;/*90 + 70 padding from images*/
   left: 315px;
+  padding-bottom:58px;
 }
 
-.image img{
+.image{
+    float:left;
     width:350px;
     height:450px;
-    transition:all 0.5s ease;
+    margin-right:30px;
+    margin-bottom:40px;
+}
+
+.image3{
+    width:350px;
+    height:450px;
+    margin-bottom:40px;
+}
+
+.clear{
+    clear:both;
 }
 
 
-.image:hover img {
-    transform:scale(1.05);
+
+#w3schools:hover{
+    color:rgb(9, 245, 9);
+}
+
+#stackof:hover{
+    color:orange;
 }
 
 
+#youtube:hover{
+    color:red;
+}
+
+#resume:hover{
+    color: black;
+}

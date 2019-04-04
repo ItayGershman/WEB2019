@@ -18,36 +18,53 @@ nav{
     width:300px;
     height:33px;
     margin:50px auto;
-    background-color:#000000;
+    
 }
 
-header nav{
-
+nav a{
+    text-decoration: none;
+    color:black;
+    padding-left:5px;
+    font-weight: bold;
 }
+
+.dot {
+    height: 14px;
+    width: 14px;
+    background-color: #F72828;
+    border-radius: 50%;
+    display: inline-block;
+  }
 
 body{
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer{
     width:100%;
     height:41px;
     background-color:#000000;
+    position: relative;
 }
 
 /* layout1 style*/
+
 #layout1 main{
     width:881px;
     height:860px;
     margin:0 auto;
-    background-color:#333333;
+    background-color:#FFFFFF;
 }
 
 #layout1 .text{
     float:left;
+    margin-top:267px;
     width:50%;
     height:120px;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
+    top:0;
+    left:0;
+    
 }
 
 #layout1 .boxes{
@@ -56,15 +73,124 @@ footer{
     left:0px;
     float:left;
     width: 50%;
-    height:500px;
-    background-color: red;
+    height:715px;
+    background-color: #FFFFFF;
+    
 }
 
-#layout1 .box1{
-    top:44px;
+.leftColumn{
     left:0px;
+}
+
+
+.box1{
+    top:135px;
     width:75px;
     height:23px;
+}
+
+.box2{
+    top:166px;
+    width:136px;
+    height:46px;
+}
+
+.box3{
+    top:223px;
+    width:134px;
+    height:404px;
+}
+
+.box4{
+    top:638px;
+    width:88px;
+    height:28px;
+}
+
+.box5{
+    top:673px;
+    width:25px;
+    height:26px;
+}
+
+
+.box6{
+    top:673px;
+    left:32px;
+    width:25px;
+    height:26px;
+}
+
+.middleColumn{
+    left:150px;
+}
+
+.box7{
+    top:135px;
+    width:246px;
+    height:352px;
+}
+
+.box8{
+
+    top:503px;
+    width:123px;
+    height:212px;
+}
+
+.box9{
+    
+    top:503px;
+    left: 287px;
+    width:55px;
+    height:105px;
+}
+
+.box10{
+    
+    top:615px;
+    left: 287px;
+    width:110px;
+    height:58px;
+}
+
+.rightColumn{
+    left:409px;
+}
+
+.box11{
+    top:91px;
+    width:28px;
+    height:55px;
+}
+
+.box12{
+    
+    top:157px;
+    width:28px;
+    height:55px;
+}
+
+.box13{
+    
+    top:223px;
+    width:28px;
+    height:55px;
+}
+
+.box14{
+    
+    top:289px;
+    width:28px;
+    height:198px;
+}
+
+
+.box15{
+    left:383px;
+    top:503px;
+    width:55px;
+    height:105px;
 }
 
 .clear{
@@ -87,5 +213,115 @@ article{
     margin-top:15px;
     margin-left:15px;
     float: left;
-
 }
+
+.Mix{
+    margin-top:267px;
+    margin-right:244px;;
+}
+
+h1{
+    font-size:72px;
+    letter-spacing: 20px;
+}
+
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: normal;
+}
+
+/*layout2 style*/
+
+#layout2 .boxes2 div{
+    position: absolute;
+    background-color:#C4C4C4;
+}
+
+#layout2 section main{
+    width:1271px;
+    height:1860px;
+    margin:0 auto;
+    background-color:#FFFFFF;
+    float:left;
+}
+
+
+.leftgraycolumn{
+    left:151px;
+}
+
+.rightgraycolumn{
+    left:663px;
+}
+
+.graycontainer{
+
+    left:151px;
+    top:242px;
+    left:151px;
+}
+
+.graybox1{
+    width:457px;
+    height:299px;
+}
+
+.graybox2{
+    width:457px;
+    height:299px;
+    top:70px;
+    top:611px;
+}
+
+.graybox3{
+    width:457px;
+    height:299px;
+    top:980px;
+}
+
+.graybox4{
+    width:457px;
+    height:299px;
+    top:1349px;
+}
+
+.graybox5{
+    width:457px;
+    height:299px;
+    top:1718px;
+}
+
+.graybox6{
+    width:457px;
+    height:299px;
+    top:410px;
+}
+.graybox7{
+    width:457px;
+    height:299px;
+    top:779px;
+}
+.graybox8{
+    width:457px;
+    height:299px;
+    top:1148px;
+}
+.graybox9{
+    width:457px;
+    height:299px;
+    top:1517px;
+}
+.graybox10{
+    width:457px;
+    height:299px;
+    top:1886px;
+}
+
+#layout2 section aside{
+    width:169px;
+    height:1860px;
+    background-color:#EBEF18;
+    float:right;
+}
+

@@ -1,0 +1,85 @@
+*{
+    padding:0px !important;
+    margin:0px !important;
+}
+
+body,head,section{
+    display:block;
+}
+
+.svgImage{
+    margin-left:22% !important;
+    margin-top:5% !important;
+}
+svg{
+    margin-bottom:-100px !important;
+}
+
+.formLocation{
+    margin-left:35% !important;
+}
+
+body{
+    background:url(images/spaceship2.svg)no-repeat;
+    background:url(images/space3.svg) no-repeat;
+    background-size: cover;
+    
+    font-family: 'Righteous', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Audiowide', cursive;
+}
+
+label{
+    color:yellow;
+    font-size:18px;
+}
+
+p{
+    color:white !important;
+}
+
+input{
+    font-size: 18px;
+    background-color:transparent;
+    color:white !important;
+    
+}
+
+#changeTextColor{
+    color:white !important;
+}
+
+
+
+::placeholder{
+    background-color:black;
+}
+
+a{
+    color:black;
+}
+
+h1{
+    font-size:72px !important;
+    font-weight: bold !important;
+    font-family: 'Audiowide', cursive !important;
+    margin-left:-200px !important;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+
+p{
+    color:black !important;
+}
+
+.launch{
+    width:300px;
+    height:300px;
+}
+
+
+input[type=range]{
+    width: 170px !important;;
+}
